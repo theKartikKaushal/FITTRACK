@@ -15,7 +15,7 @@ app.use(cors({
 app.options('*', cors());
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://kartik_18:cibBipm3Q4en8hyt@thekartikkaushal.hvf9hgn.mongodb.net/fitness?appName=theKartikKaushal');
+mongoose.connect('');
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
